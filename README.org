@@ -1,0 +1,9 @@
+* Xiana-blade
+** Using REACT components with Clojurescript, Tailwindcss UI and babeljs
+#+begin_quote
+This is a WIP! So all suggestions are welcome!
+
+The future goal is to have a **frontend framework** for
+Xiana. Supposed to be like a **plugin**
+#+end_quote
+
