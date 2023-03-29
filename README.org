@@ -2,8 +2,11 @@
 ** Using REACT components with Clojurescript, Tailwindcss UI and babeljs
 #+begin_quote
 This is a WIP! So all suggestions are welcome!
-
-The future goal is to have a **frontend framework** for
-Xiana. Supposed to be like a **plugin**
 #+end_quote
 
+#+begin_quote
+The future goal is to have a **frontend framework** for
+Xiana. Supposed to be like a **plugin**
+
+For now it is a *template*, more or less
+#+end_quote
