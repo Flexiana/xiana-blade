@@ -4,20 +4,24 @@
     "description": "Xiana-Blade -- Using REACT components with Clojurescript, Tailwindcss UI and babeljs",
     "main": "index.js",
     "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"babel": "babel src/jsx/ --out-dir src/js/ --plugins=@babel/plugin-transform-react-jsx --watch"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "babel": "babel src/jsx/ --out-dir src/js/ --plugins=@babel/plugin-transform-react-jsx --watch",
+	"twcss": "tailwindcss -i ./public/css/base.css -o ./public/css/style.css --watch -p"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-	"@babel/cli": "^7.21.0",
-	"@babel/core": "^7.21.3",
-	"@babel/plugin-transform-react-jsx": "^7.21.0",
-	"shadow-cljs": "^2.22.8"
+        "@babel/cli": "^7.21.0",
+        "@babel/core": "^7.21.3",
+        "@babel/plugin-transform-react-jsx": "^7.21.0",
+        "shadow-cljs": "^2.22.8"
     },
     "dependencies": {
-	"react": "^18.2.0",
-	"react-dom": "^18.2.0"
+        "@headlessui/react": "^1.7.13",
+        "@heroicons/react": "^2.0.16",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwindcss": "^3.3.0"
     }
 }
